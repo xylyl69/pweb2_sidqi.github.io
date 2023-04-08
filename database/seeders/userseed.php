@@ -16,9 +16,9 @@ class userseed extends Seeder
     {
         DB::table('users')->insert([
             'id'=>'2',
-            'name'=>'user',
-            'email'=>'user@gmail.com',
-            'password'=>'$2y$10$6vR5V4eKZ6Sf6JjttndBruSNV7YOkgj.ZXfLVaZKW3.L5Fs6Kffua',
+            'name'=>'siswa',
+            'email'=>'siswa@gmail.com',
+            'password'=>'$2y$10$DPyC3cNxjE6mrvnzkQ/MlOBEnQ71aU5suFt4uYUnwyzjZE73rvkl2',
             'role_id'=>'0',
 
         ]);
